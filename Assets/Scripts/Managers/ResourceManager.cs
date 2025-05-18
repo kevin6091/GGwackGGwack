@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEngine.UI.Image;
 
-public class ResourceManager : MonoBehaviour
+public class ResourceManager
 {
     public T Load<T>(string path) where T : Object
     {

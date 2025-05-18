@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class InputManager : MonoBehaviour
+public class InputManager
 {
     public Dictionary<(Define.InputEvent, Define.InputType), Action<object[]>> Actions { get; set; } = new Dictionary<(Define.InputEvent, Define.InputType), Action<object[]>>();
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Diagnostics;
 
-public class UIManager : MonoBehaviour
+public class UIManager
 {
     int _order = 10;
 
